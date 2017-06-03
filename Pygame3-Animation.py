@@ -38,7 +38,7 @@ while True:  													# main game loop: 1) handles events, 2) updates game s
 		if caty == 10:
 			direction = 'right'
 
-	DISPLAYSURF.blit(catImg, (catx, caty))
+	DISPLAYSURF.blit(catImg, (catx, caty))						# blit: draw the contents of one surface onto another...e.g. copy the cat image to surface object
 
 	for event in pygame.event.get():							# event handling: checks to see if certain events have occurred
 		if event.type == QUIT:
