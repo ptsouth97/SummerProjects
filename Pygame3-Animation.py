@@ -5,6 +5,9 @@ from pygame.locals import *
 
 pygame.init()  													# activates Pygame, always the first command after import statements
 
+pygame.mixer.music.load('galactic-chase.wav')
+pygame.mixer.music.play(-1, 0.0)
+
 FPS = 30														# frames per second setting
 fpsClock = pygame.time.Clock()
 
@@ -42,6 +45,7 @@ while True:  													# main game loop: 1) handles events, 2) updates game s
 
 	for event in pygame.event.get():							# event handling: checks to see if certain events have occurred
 		if event.type == QUIT:
+			pygame.mixer.music.stop()
 			pygame.quit()										# deactivates Pygame...opposite of pygame.init()
 			sys.exit()											# terminates program
 	pygame.display.update()										# draws the surface object held by the DISPLAYSURF variable
