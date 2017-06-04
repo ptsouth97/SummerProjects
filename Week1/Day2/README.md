@@ -11,7 +11,7 @@
   * If there's no error, it's already installed and you can skip the next section
   * Type 'ctrl-z' to stop python command line
 
-* Install pygame
+* [Install pygame](https://www.pygame.org/wiki/GettingStarted)
   * 'python3.X -m pip install pygame --user'  again, X is your python version
   * If it doesn't install, let me know or try to troubleshoot on your own
 
