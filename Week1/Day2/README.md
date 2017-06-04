@@ -4,7 +4,7 @@
 * This could be the most frustrating part, so be patient
 
 * First let's check if Pygame is already installed
-  * Open a terminal with 'ctrl-t'
+  * Open a terminal with 'ctrl-alt-t'
   * Remember the python distribution from yesterday? Type 'python3.X' where X is the version number
   * You are now in the python command line
   * Type 'import pygame'
