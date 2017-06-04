@@ -16,7 +16,9 @@
   * If it doesn't install, let me know or try to troubleshoot on your own
 
 * Test the installation
-  * './Pygame1-Test.py'
+  * 'vim Pygame1-Test.py' and change the shebang line to correct python version, if necessary
+  * Remember that 'wq' then enter will save your changes
+  * './Pygame1-Test.py' to run the script
   * You should see a black window pop up that says 'Hello World'
   * Change the code with Vim so that it says 'Hello Dad' instead 
   * Change the size of the box to '800x600'
