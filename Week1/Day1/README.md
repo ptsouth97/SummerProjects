@@ -2,9 +2,9 @@
 
 1. Update your project files with git
   * navigate to /Documents/OrionSummerProject
-  * type: 'git pull origin master'  (without the quotes)
+  type: 'git pull origin master'  (without the quotes)
 
-2. Read what you need to do today
+Read what you need to do today
   * Read the README.md in the top level of the project
     * You can use 'cat README.md' or 'vim README.md'
   *  Navigate to /Documents/OrionSummerProject/Week1/Day1
