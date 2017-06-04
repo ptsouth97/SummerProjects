@@ -26,7 +26,7 @@
 
 * Push your changes to github so I can check them:
   * 'git add .'  adds all changes you made
-  * "git commit -m 'I updated the script'"   -m is for a message that goes with the commit
+  * 'git commit -m "I updated the script"  '   -m is for a message that goes with the commit
   * 'git push origin master'
-  * You can login to your [github]('https://github.com/') account to verify the changes
+  * You can login to your [github](https://github.com/) account to verify the changes
 
