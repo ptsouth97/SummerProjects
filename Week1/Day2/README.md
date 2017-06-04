@@ -12,7 +12,7 @@
   * Type 'ctrl-z' to stop python command line
 
 * Install pygame
-  * 'python3 -m pip install pygame'
+  * 'python3.X -m pip install pygame --user'  again, X is your python version
   * If it doesn't install, let me know or try to troubleshoot on your own
 
 * Test the installation
