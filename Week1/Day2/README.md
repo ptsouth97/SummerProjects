@@ -1,7 +1,6 @@
 # Week 1, Day 2
 
-## Today's goal is to get [Pygame](https://www.pygame.org) working on the Raspberry Pi
-## This could be the most frustrating part, so be patient
+## Today's goal is to get [Pygame](https://www.pygame.org) working
 
 ## First let's check if Pygame is already installed
   * Open a terminal with 'ctrl-alt-t'
