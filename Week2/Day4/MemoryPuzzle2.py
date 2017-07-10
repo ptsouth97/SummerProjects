@@ -1,8 +1,7 @@
 #!/usr/bin/python3.6
 # Memory Puzzle
 # By Al Sweigart al@inventwithpython.com
-# http://inventwithpython.com/pygame
-
+# http://inventwithpython.com/pygame ; Released under a "Simplified BSD" license
 
 import random, pygame, sys
 from pygame.locals import *
@@ -36,11 +35,11 @@ LIGHTBGCOLOR = GRAY
 BOXCOLOR = WHITE
 HIGHLIGHTCOLOR = BLUE
 
-DONUT = 'donut'
-SQUARE = 'square'
-DIAMOND = 'diamond'
-LINES = 'lines'
-OVAL = 'oval'
+DONUT = 	'donut'
+SQUARE = 	'square'
+DIAMOND = 	'diamond'
+LINES = 	'lines'
+OVAL = 		'oval'
 
 ALLCOLORS = (RED, GREEN, BLUE, YELLOW, ORANGE, PURPLE, CYAN)
 ALLSHAPES = (DONUT, SQUARE, DIAMOND, LINES, OVAL)
@@ -60,6 +59,7 @@ def main():
 	revealedBoxes = generateRevealedBoxesData(False)
 	
 	firstSelection = None # stores the (x, y) of the first box clicked
+
 	DISPLAYSURF.fill(BGCOLOR)
 	startGameAnimation(mainBoard)
 
@@ -256,7 +256,7 @@ def startGameAnimation(board):
 	boxes = []
 	for x in range(BOARDWIDTH):
 		for y in range(BOARDHEIGHT):
-			board.append( (x, y) )
+			boxes.append( (x, y) )
 	random.shuffle(boxes)
 	boxGroups = splitIntoGroupsOf(8, boxes)
 
