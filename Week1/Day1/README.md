@@ -14,7 +14,7 @@
   * Press 'i' to enter 'insert mode'
   * The very first line needs to tell the script which interpreter should run the script
   * Type the shebang:  '#!'  This just means I'm going to tell you which program to use
-  * Then type '/usr/bin/python3.X' where 3.X is the version on your system
+  * Then right after the shebang (no spaces), type '/usr/bin/python3.X' where 3.X is the version on your system
   * Press 'Esc' to enter 'command mode'
   * Press 'wq' followed by enter to 'Write then Quit' (it's just saving and exiting)
 
