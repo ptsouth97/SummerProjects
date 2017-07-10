@@ -4,7 +4,9 @@
 ## Hint: you can open multiple terminal windows so you can read the instructions and do them at the same time
 
 ## Update the file with your python version
-  * Open the file in this directory by typing 'vim test.py' (don't forget you can use tab to autocomplete)
+  * From the terminal, navigate to the Week1/Day1 directory:  'cd ~/Documents/SummerProjects/Week1/Day1'
+  * List the files in this directory with: 'ls' (That's a lowercase L as in lion)
+  * Open the python file in this directory by typing 'vim test.py' (don't forget you can use tab to autocomplete)
   * Press 'i' to enter 'insert mode'
   * The very first line needs to tell the script which interpreter should run the script
   * Type the shebang:  '#!'  This just means I'm going to tell you which program to use
