@@ -1,3 +1,3 @@
-#CHANGE_WHAT_GOES_HERE
+#!/usr/bin/python3.6
 
 print('Hello Cruel Summer World')
