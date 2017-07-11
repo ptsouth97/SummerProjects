@@ -1,5 +1,7 @@
 #!/usr/bin/python3.6
 
+# hello
+
 import pygame, sys
 from pygame.locals import *
 
