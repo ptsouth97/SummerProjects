@@ -15,7 +15,7 @@
 ## Make changes
   * Change at least one of the colors to a different variation
   * Change at least one of the shapes to a different location
-  * Write changes with 'esc' + 'wq'
+  * Write changes with 'esc' + ':wq'
 
 ## Save changes to Github
   * Go back to base SummerProjects folder 'cd ../..'
