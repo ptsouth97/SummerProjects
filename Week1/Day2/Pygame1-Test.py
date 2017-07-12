@@ -6,8 +6,8 @@ import pygame, sys
 from pygame.locals import *
 
 pygame.init()  										# activates Pygame, always the first command after import statements
-DISPLAYSURF = pygame.display.set_mode((400, 300))	# creates a surface object of size width x height
-pygame.display.set_caption('Hello World!')			# sets the text at the top of the window
+DISPLAYSURF = pygame.display.set_mode((800, 600))	# creates a surface object of size width x height
+pygame.display.set_caption('Butt Smell')			# sets the text at the top of the window
 
 while True:  										# main game loop: 1) handles events, 2) updates game state, 3) draws game state to screen
 	for event in pygame.event.get():				# event handling: get() makes a list and for loop checks to see if certain events have occurred
