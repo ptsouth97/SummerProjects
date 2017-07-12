@@ -12,7 +12,7 @@
   * Remember that 'i' enters insert mode
   * Change where the cat starts on the screen
   * Make the cat go in the opposite direction (counter clockwise instead of clockwise)
-  * Write and quit with 'esc' + 'wq'
+  * Write and quit with 'esc' + ':wq'
 
 ## Push changes to Github
   * Move back to SummerProjects folder  'cd ../..'
