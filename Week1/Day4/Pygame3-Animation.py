@@ -14,21 +14,21 @@ pygame.display.set_caption('Animation')							# sets the text at the top of the 
 
 WHITE = (255, 255, 255)
 catImg = pygame.image.load('cat.png')
-catx = 10
-caty = 10
-direction = 'right'
+catx = 20
+caty = 20
+direction = 'left'
 
 while True:  													# main game loop: 1) handles events, 2) updates game state, 3) draws game state to screen
 	DISPLAYSURF.fill(WHITE)
 
-	if direction == 'right':
+	if direction == 'left':
 		catx += 5
 		if catx == 280:
 			direction = 'down'
 	elif direction == 'down':
 		caty += 5
 		if caty == 220:
-			direction = 'left'
+			direction = 'right'
 	elif direction == 'left':
 		catx -= 5
 		if catx == 10:
