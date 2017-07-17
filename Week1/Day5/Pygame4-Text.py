@@ -4,17 +4,17 @@ import pygame, sys
 from pygame.locals import *
 
 pygame.init()  										# activates Pygame, always the first command after import statements
-DISPLAYSURF = pygame.display.set_mode((400, 300))	# creates a surface object of size width x height
+DISPLAYSURF = pygame.display.set_mode((1900, 1080))	# creates a surface object of size width x height
 pygame.display.set_caption('Hello World!')			# sets the text at the top of the window
 
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 128)
 
-fontObj = pygame.font.Font('freesansbold.ttf', 32)
-textSurfaceObj = fontObj.render('Hello world!', True, GREEN, BLUE)
+fontObj = pygame.font.Font('freesansbold.ttf', 65)
+textSurfaceObj = fontObj.render('Orion is the best!', True, GREEN, WHITE)
 textRectObj = textSurfaceObj.get_rect()
-textRectObj.center = (200, 150)
+textRectObj.center = (500,500)
 
 while True:  										# main game loop: 1) handles events, 2) updates game state, 3) draws game state to screen
 	DISPLAYSURF.fill(WHITE)
