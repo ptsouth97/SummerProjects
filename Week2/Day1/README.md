@@ -6,7 +6,7 @@
   * ./Pygame5-Sounds.py  
 
 ## Examine the code
-  * 'vim Pygame4-Sounds.py'
+  * 'vim Pygame5-Sounds.py'
   * Figure out how the sound is loaded and played
 
 ## Make changes
