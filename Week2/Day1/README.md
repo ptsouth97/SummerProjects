@@ -3,10 +3,10 @@
 ## Today you will learn how to play sounds in Pygame
 
 ## Run the script
-  * ./Pygame4-Text.py  
+  * ./Pygame5-Sounds.py  
 
 ## Examine the code
-  * 'vim Pygame4-Text.py'
+  * 'vim Pygame4-Sounds.py'
   * Figure out how the sound is loaded and played
 
 ## Make changes
