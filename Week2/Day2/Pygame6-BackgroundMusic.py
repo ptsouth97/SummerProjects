@@ -5,18 +5,18 @@ from pygame.locals import *
 
 pygame.init()  													# activates Pygame, always the first command after import statements
 
-pygame.mixer.music.load('galactic-chase.wav')
+pygame.mixer.music.load('slay.wav')
 pygame.mixer.music.play(-1, 0.0)
 
 FPS = 30														# frames per second setting
 fpsClock = pygame.time.Clock()
 
 # set up the window
-DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)		# creates a surface object of size width x height
+DISPLAYSURF = pygame.display.set_mode((1980,1080), 0, 32)		# creates a surface object of size width x height
 pygame.display.set_caption('Animation')							# sets the text at the top of the window
 
 WHITE = (255, 255, 255)
-catImg = pygame.image.load('cat.png')
+catImg = pygame.image.load('knight.png')
 catx = 10
 caty = 10
 direction = 'right'
