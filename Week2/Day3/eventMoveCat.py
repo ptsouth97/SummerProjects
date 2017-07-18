@@ -50,12 +50,12 @@ while True:  													# main game loop: 1) handles events, 2) updates game s
 			if event.key in (K_LEFT, K_a):
 				if catx >= 10:
 					catx -=10
-			if event.key in (K_UP, K_w):
-				if caty >= 10: 
-					caty -=10
-			if event.key in (K_DOWN, K_s):
-				if caty <= 220:
-					caty +=10
+#			if event.key in (?????):
+#				if caty >= 10: 
+#					caty ?????
+#			if event.key in (????):
+#				if caty <= 220:
+#					caty ?????
 			if event.key in (K_SPACE, K_x):
 				DISPLAYSURF.blit(fireball, (catx-60, caty))
 	
