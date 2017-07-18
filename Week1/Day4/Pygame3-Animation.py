@@ -13,18 +13,19 @@ DISPLAYSURF = pygame.display.set_mode((400, 300), 0, 32)		# creates a surface ob
 pygame.display.set_caption('Animation')							# sets the text at the top of the window
 
 WHITE = (255, 255, 255)
-catImg = pygame.image.load('cat.png')
+
+catImg = pygame.image.load('cat.png')                           # load cat image and place it on screen
 catx = 20
 caty = 20
-direction = 'left'
+direction = 'down'
 
 while True:  													# main game loop: 1) handles events, 2) updates game state, 3) draws game state to screen
 	DISPLAYSURF.fill(WHITE)
 
-	if direction == 'left':
+	if direction == 'right':
 		catx += 5
-		if catx == 280:
-			direction = 'down'
+		if catx ==280:
+			direction = 'up'
 	elif direction == 'down':
 		caty += 5
 		if caty == 220:
@@ -32,11 +33,11 @@ while True:  													# main game loop: 1) handles events, 2) updates game s
 	elif direction == 'left':
 		catx -= 5
 		if catx == 10:
-			direction = 'up'
+			direction = 'down'
 	elif direction == 'up':
 		caty -= 5
 		if caty == 10:
-			direction = 'right'
+			direction = 'left'
 
 	DISPLAYSURF.blit(catImg, (catx, caty))						# blit: draw the contents of one surface onto another...e.g. copy the cat image to surface object
 
