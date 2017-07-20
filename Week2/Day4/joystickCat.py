@@ -59,21 +59,6 @@ while True:														# main game loop: 1) handles events, 2) updates game st
 			pygame.mixer.music.stop()
 			pygame.quit()										# deactivates Pygame...opposite of pygame.init()
 			sys.exit()											# terminates program
-		elif event.type == KEYDOWN:
-			if event.key in (K_RIGHT, K_d):
-				if catx <= 280:
-					catx +=10
-			if event.key in (K_LEFT, K_a):
-				if catx >= 10:
-					catx -=10
-			if event.key in (K_UP, K_w):
-				if caty >= 10: 
-					caty -=10
-			if event.key in (K_DOWN, K_s):
-				if caty <= 220:
-					caty +=10
-			if event.key in (K_SPACE, K_x):
-				DISPLAYSURF.blit(fireball, (catx-60, caty))
 		
 		elif event.type == pygame.JOYBUTTONDOWN:
 			# FIREBALL
@@ -114,14 +99,14 @@ while True:														# main game loop: 1) handles events, 2) updates game st
 			leftRight = my_joystick.get_axis(0)
 			if leftRight > 0:
 				catx += 10
-			if leftRight < 0:
-				catx -= 10
+			#if leftRight < 0:
+				#????????????????
 
 			upDown= my_joystick.get_axis(1)
 			if upDown > 0:
 				caty += 10
-			if upDown < 0:
-				caty -= 10
+			# if upDown < 0:
+				#????????
 
 	
 	pygame.display.update()										# draws the surface object held by the DISPLAYSURF variable
